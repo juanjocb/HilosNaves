@@ -77,11 +77,11 @@ public class CanvasJuego extends Canvas implements KeyListener {
 		
 		p6 = new Personaje("ovni2.png", 100, 350, 4);
 
-		//listaPersonajes.add(p1);
-		//listaPersonajes.add(p2);
-		//listaPersonajes.add(p4);
+		listaPersonajes.add(p1);
+		listaPersonajes.add(p2);
+		listaPersonajes.add(p4);
 		listaPersonajes.add(p5);
-		//listaPersonajes.add(p6);
+		listaPersonajes.add(p6);
 
 		HiloPersonaje hiloP1 = new HiloPersonaje(this, p1, 2);
 		hilotes.add(hiloP1);
